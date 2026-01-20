@@ -1,0 +1,81 @@
+
+.containar{
+    
+    max-width: 1077px;
+    margin: 0px auto;
+}
+.containar .menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    
+}
+.btn{
+    border: none;
+    border-radius: 7px;
+    background-color: #B68C5A;
+    padding: 0px 14px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.bannar{
+    position: relative;
+    max-width: 1077px;
+    margin: 0px auto;
+}
+.bannar img{
+    width: 100%;
+    margin-top: 70px;
+}
+.bannar-text{
+    position: relative;
+    margin-top: -30%;
+    width: 550px;
+    margin-left: 30%;
+    color: aliceblue;
+}
+.text{
+    position: absolute;
+    width: 600px;
+    margin-top: -30%;
+    text-align: center;
+    margin-left: 25%;
+    color: #ffffff;
+}
+@media (max-width:500px) {
+    .menu ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .containar .menu{
+        flex-direction: column;
+    }
+    .menu img{
+        width: 150px;
+        height: 200;
+        
+    }
+    .text{
+        width: 300px;
+        flex-direction: column;
+        margin-top: -50%;
+        font-size: 12px;
+        margin-left: 10%;
+        
+    }
+    .bannar img{
+        margin-top: 3%;
+    }
+    
+   
+}
